@@ -25,8 +25,8 @@ else
   exit 1
 fi 
 
-cp TestListExamples.java ./grading-area
 cp student-submission/ListExamples.java ./grading-area
+cp TestListExamples.java ./grading-area
 
 javac -cp $CPATH grading-area/*.java
 
