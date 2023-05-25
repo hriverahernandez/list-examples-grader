@@ -38,3 +38,5 @@ then
 fi 
 
 java -cp $CPATH org.junit.runner.JUnitCore TestListExamples > junit-output.txt
+
+cat junit-output.txt
